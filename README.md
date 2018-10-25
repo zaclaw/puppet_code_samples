@@ -1,8 +1,7 @@
-# Puppet Code Samples
-
+# Puppet Code Samples #
 This repo contains some base samples for Puppet code. The name of the classes may not match your structure and hence will need to be renamed. Feel free to chop and change the code accordingly to fit your environment.
 ---
-## Forge Modules Required
+## Forge Modules Required ##
 The following Puppet Forge Modules are required
 * puppetlabs/concat
 * puppetlabs/stdlib
@@ -15,10 +14,10 @@ The following Puppet Forge Modules are required
 * puppetlabs/reboot
 * puppet/windowsfeature
 * puppetlabs/wsus_client
-* puppetlabs/sqlserver &ast requires Puppet Enterprise License
+* puppetlabs/sqlserver \* requires Puppet Enterprise License
 ---
-### Windows Samples
-* [Firewall Rules](../windows/fw.pp)
+### Windows Samples ###
+* [Firewall Rules](/windows/fw.pp)
 * [Set Registry Keys](../windows/registry.pp)
 * [Setup Domain Controller](../windows/windc.pp)
 * [Join host to domain](../windows/joindomain.pp)
@@ -31,6 +30,6 @@ The following Puppet Forge Modules are required
 * [Install and configure MSSQL](../windows/mssql.pp)
 
 ---
-### Linux Samples
+### Linux Samples ###
 TBA
 ---
