@@ -1,4 +1,5 @@
 # Puppet Code Samples #
+## Intro ##
 This repo contains some base samples for Puppet code. The name of the classes may not match your structure and hence will need to be renamed. Feel free to chop and change the code accordingly to fit your environment.
 ---
 ## Forge Modules Required ##
@@ -18,16 +19,16 @@ The following Puppet Forge Modules are required
 ---
 ### Windows Samples ###
 * [Firewall Rules](/windows/fw.pp)
-* [Set Registry Keys](../windows/registry.pp)
-* [Setup Domain Controller](../windows/windc.pp)
-* [Join host to domain](../windows/joindomain.pp)
-* [Create Domain user](../windows/domainuser.pp)
-* [Add domain user to local admin group](../windows/localdomain.pp)
-* [Set host DNS to Domain Controller](../windows/domaindns.pp)
-* [Scheduled Task](../windows/scheduledtask.pp)
-* [Configure WSUS agent](../windows/wsus.pp)
-* [Install and configure IIS](..windows/iis.pp)
-* [Install and configure MSSQL](../windows/mssql.pp)
+* [Set Registry Keys](/windows/registry.pp)
+* [Setup Domain Controller](/windows/windc.pp)
+* [Join host to domain](/windows/joindomain.pp)
+* [Create Domain user](/windows/domainuser.pp)
+* [Add domain user to local admin group](/windows/localdomain.pp)
+* [Set host DNS to Domain Controller](/windows/domaindns.pp)
+* [Scheduled Task](/windows/scheduledtask.pp)
+* [Configure WSUS agent](/windows/wsus.pp)
+* [Install and configure IIS](windows/iis.pp)
+* [Install and configure MSSQL](/windows/mssql.pp)
 
 ---
 ### Linux Samples ###
