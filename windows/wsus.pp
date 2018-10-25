@@ -1,7 +1,9 @@
-class profile::wsus {
+class profile::wsus (
+  $server_url,
+) {
 
   class {'wsus_client':
-    server_url             => 'http://192.168.0.90:8530',
+    server_url             => $server_url,
     auto_update_option     => 'Scheduled',
     scheduled_install_day  => 'Sunday',
     scheduled_install_hour => 2,
