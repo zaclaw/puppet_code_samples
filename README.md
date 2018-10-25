@@ -23,7 +23,7 @@ The following Puppet Forge Modules are required
 * [Setup Domain Controller](/windows/windc.pp)
 * [Join host to domain](/windows/joindomain.pp)
 * [Create Domain user](/windows/domainuser.pp)
-* [Add domain user to local admin group](/windows/localdomain.pp)
+* [Add domain user to local admin group](/windows/localadmin.pp)
 * [Set host DNS to Domain Controller](/windows/domaindns.pp)
 * [Scheduled Task](/windows/scheduledtask.pp)
 * [Configure WSUS agent](/windows/wsus.pp)
